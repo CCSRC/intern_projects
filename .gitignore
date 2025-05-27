@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.env
+
+# VS Code / PyCharm
+.vscode/
+.idea/
+
+# macOS / Windows / Linux system files
+.DS_Store
+Thumbs.db
+
+# Node.js (if any)
+node_modules/
+
+# Others
+*.log
+*.cache/
