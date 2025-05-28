@@ -1,0 +1,101 @@
+customer_id,timestamp,amount,transaction_type,location,device,merchant,is_fraud
+CUST001,2024-05-05 17:04:00,407.96,withdrawal,New York,desktop,Merchant_30,0
+CUST001,2024-05-26 08:17:00,661.76,payment,Miami,ATM,Merchant_1,0
+CUST001,2024-06-21 16:44:00,325.53,transfer,New York,mobile,Merchant_43,0
+CUST001,2024-06-16 01:10:00,646.68,withdrawal,Los Angeles,ATM,Merchant_36,0
+CUST001,2024-02-28 01:01:00,527.92,transfer,New York,mobile,Merchant_22,0
+CUST001,2024-01-31 18:58:00,520.59,payment,New York,desktop,Merchant_15,0
+CUST001,2024-05-14 21:58:00,646.59,transfer,New York,mobile,Merchant_40,0
+CUST001,2024-02-06 13:30:00,422.11,payment,Houston,mobile,Merchant_46,0
+CUST001,2024-02-01 15:58:00,584.85,transfer,New York,mobile,Merchant_23,0
+CUST001,2024-12-15 01:10:00,443.96,purchase,New York,ATM,Merchant_8,0
+CUST001,2024-12-22 05:33:00,410.07,withdrawal,New York,ATM,Merchant_50,0
+CUST001,2024-02-08 12:15:00,584.63,transfer,New York,ATM,Merchant_40,0
+CUST001,2024-09-16 09:40:00,353.05,purchase,New York,desktop,Merchant_29,0
+CUST001,2024-04-21 01:51:00,555.32,transfer,New York,mobile,Merchant_2,0
+CUST001,2024-07-21 12:54:00,687.38,transfer,Houston,desktop,Merchant_5,0
+CUST001,2024-01-30 08:19:00,505.78,purchase,New York,ATM,Merchant_25,0
+CUST001,2024-04-11 13:58:00,679.15,purchase,New York,ATM,Merchant_37,0
+CUST001,2024-01-30 04:18:00,561.8,purchase,New York,ATM,Merchant_50,0
+CUST001,2024-12-24 00:57:00,452.59,transfer,New York,desktop,Merchant_50,0
+CUST001,2024-12-07 13:20:00,679.88,purchase,New York,desktop,Merchant_26,0
+CUST001,2024-09-03 20:36:00,5895.64,transfer,Miami,mobile,Merchant_34,1
+CUST001,2024-11-15 19:59:00,453.87,transfer,New York,ATM,Merchant_16,0
+CUST001,2024-08-06 06:49:00,567.03,purchase,New York,desktop,Merchant_27,0
+CUST001,2024-02-27 21:36:00,443.61,transfer,New York,desktop,Merchant_26,0
+CUST001,2024-06-22 08:26:00,428.47,purchase,New York,ATM,Merchant_4,0
+CUST001,2024-08-11 03:51:00,445.86,purchase,New York,ATM,Merchant_29,0
+CUST001,2024-05-23 20:07:00,453.33,payment,New York,ATM,Merchant_27,0
+CUST001,2024-06-09 19:21:00,237.94,purchase,New York,desktop,Merchant_43,0
+CUST001,2024-04-07 13:35:00,525.75,transfer,Chicago,ATM,Merchant_50,0
+CUST001,2024-09-01 10:43:00,5822.05,transfer,New York,ATM,Merchant_26,1
+CUST001,2024-07-06 00:15:00,593.26,transfer,New York,desktop,Merchant_28,0
+CUST001,2024-01-25 13:59:00,288.93,payment,New York,desktop,Merchant_29,0
+CUST001,2024-07-05 16:09:00,627.88,withdrawal,New York,desktop,Merchant_28,0
+CUST001,2024-02-08 23:10:00,337.67,purchase,Houston,ATM,Merchant_24,0
+CUST001,2024-11-30 18:15:00,615.95,purchase,New York,desktop,Merchant_24,0
+CUST001,2024-08-20 23:58:00,319.61,transfer,New York,desktop,Merchant_42,0
+CUST001,2024-03-25 07:11:00,634.7,purchase,New York,ATM,Merchant_36,0
+CUST001,2024-03-06 14:13:00,562.75,withdrawal,New York,mobile,Merchant_2,0
+CUST001,2024-12-12 12:12:00,642.82,payment,Chicago,desktop,Merchant_3,0
+CUST001,2024-09-22 20:31:00,458.71,withdrawal,New York,ATM,Merchant_28,0
+CUST001,2024-06-09 13:45:00,345.35,purchase,New York,ATM,Merchant_43,0
+CUST001,2024-08-09 16:51:00,614.84,transfer,Chicago,mobile,Merchant_25,0
+CUST001,2024-09-17 20:17:00,418.26,payment,Chicago,mobile,Merchant_41,0
+CUST001,2024-06-04 06:11:00,616.47,withdrawal,New York,mobile,Merchant_33,0
+CUST001,2024-11-16 02:02:00,247.23,purchase,New York,ATM,Merchant_27,0
+CUST001,2024-09-23 03:29:00,434.45,payment,New York,mobile,Merchant_11,0
+CUST001,2024-09-08 21:30:00,523.54,withdrawal,New York,ATM,Merchant_50,0
+CUST001,2024-06-12 17:15:00,261.05,transfer,Chicago,ATM,Merchant_35,0
+CUST001,2024-08-28 13:52:00,541.19,withdrawal,New York,ATM,Merchant_9,0
+CUST001,2024-07-21 19:10:00,435.79,transfer,Los Angeles,desktop,Merchant_4,0
+CUST001,2024-10-24 14:35:00,522.99,withdrawal,New York,desktop,Merchant_48,0
+CUST001,2024-07-28 02:33:00,239.95,transfer,New York,desktop,Merchant_17,0
+CUST001,2024-10-23 05:12:00,298.41,transfer,Los Angeles,mobile,Merchant_17,0
+CUST001,2024-06-26 01:24:00,302.48,payment,Los Angeles,mobile,Merchant_34,0
+CUST001,2024-04-30 11:56:00,697.51,purchase,New York,ATM,Merchant_31,0
+CUST001,2024-05-09 15:13:00,440.25,withdrawal,Chicago,mobile,Merchant_12,0
+CUST001,2024-06-29 09:34:00,632.61,payment,New York,mobile,Merchant_19,0
+CUST001,2024-06-19 14:34:00,646.77,purchase,New York,desktop,Merchant_20,0
+CUST001,2024-02-08 16:38:00,596.04,withdrawal,New York,desktop,Merchant_5,0
+CUST001,2024-12-17 21:27:00,412.6,transfer,New York,ATM,Merchant_5,0
+CUST001,2024-10-31 07:54:00,583.35,transfer,New York,mobile,Merchant_42,0
+CUST001,2024-07-21 20:45:00,497.29,withdrawal,New York,mobile,Merchant_23,0
+CUST001,2024-07-10 02:35:00,679.98,payment,Chicago,mobile,Merchant_39,0
+CUST001,2024-03-02 00:45:00,319.07,transfer,Chicago,ATM,Merchant_28,0
+CUST001,2024-10-18 21:23:00,526.07,purchase,New York,desktop,Merchant_41,0
+CUST001,2024-04-02 14:29:00,337.14,purchase,New York,desktop,Merchant_20,0
+CUST001,2024-01-04 08:07:00,474.59,payment,New York,desktop,Merchant_9,0
+CUST001,2024-08-02 07:24:00,278.88,withdrawal,New York,ATM,Merchant_7,0
+CUST001,2024-01-06 15:31:00,352.21,withdrawal,Los Angeles,ATM,Merchant_43,0
+CUST001,2024-02-17 06:35:00,598.27,payment,Chicago,ATM,Merchant_30,0
+CUST001,2024-08-20 01:35:00,355.56,withdrawal,New York,mobile,Merchant_27,0
+CUST001,2024-02-28 23:01:00,491.47,transfer,Houston,desktop,Merchant_6,0
+CUST001,2024-02-24 04:32:00,425.17,transfer,New York,mobile,Merchant_27,0
+CUST001,2024-09-03 03:46:00,572.36,transfer,New York,desktop,Merchant_5,0
+CUST001,2024-07-08 11:01:00,418.05,payment,Los Angeles,desktop,Merchant_43,0
+CUST001,2024-02-16 04:33:00,487.4,payment,Houston,ATM,Merchant_22,0
+CUST001,2024-04-16 04:06:00,325.43,purchase,Chicago,ATM,Merchant_5,0
+CUST001,2024-12-08 00:18:00,305.12,withdrawal,New York,mobile,Merchant_37,0
+CUST001,2024-03-23 00:11:00,481.41,withdrawal,Los Angeles,mobile,Merchant_17,0
+CUST001,2024-11-07 13:52:00,404.76,purchase,Miami,ATM,Merchant_7,0
+CUST001,2024-03-07 08:30:00,530.31,transfer,New York,desktop,Merchant_13,0
+CUST001,2024-02-09 06:35:00,691.98,purchase,New York,desktop,Merchant_36,0
+CUST001,2024-11-24 22:14:00,478.68,transfer,New York,ATM,Merchant_12,0
+CUST001,2024-06-11 13:06:00,572.78,purchase,New York,desktop,Merchant_24,0
+CUST001,2024-09-10 04:44:00,554.54,transfer,New York,mobile,Merchant_18,0
+CUST001,2024-11-20 03:41:00,586.1,transfer,New York,ATM,Merchant_37,0
+CUST001,2024-11-15 17:05:00,567.11,purchase,New York,ATM,Merchant_22,0
+CUST001,2024-11-15 17:09:00,486.61,transfer,Chicago,desktop,Merchant_46,0
+CUST001,2024-10-18 10:33:00,578.85,transfer,Houston,ATM,Merchant_13,0
+CUST001,2024-03-15 00:39:00,439.45,withdrawal,Chicago,ATM,Merchant_28,0
+CUST001,2024-09-15 04:14:00,491.97,withdrawal,New York,mobile,Merchant_35,0
+CUST001,2024-02-12 04:01:00,410.21,purchase,Chicago,mobile,Merchant_29,0
+CUST001,2024-02-04 18:56:00,468.59,transfer,New York,ATM,Merchant_2,0
+CUST001,2024-06-23 16:53:00,447.54,transfer,New York,ATM,Merchant_42,0
+CUST001,2024-08-13 08:53:00,619.51,withdrawal,New York,ATM,Merchant_45,0
+CUST001,2024-07-25 00:15:00,257.83,transfer,New York,desktop,Merchant_23,0
+CUST001,2024-07-30 16:10:00,397.07,transfer,New York,mobile,Merchant_28,0
+CUST001,2024-04-08 00:18:00,683.54,payment,New York,ATM,Merchant_19,0
+CUST001,2024-03-16 13:30:00,350.78,payment,Chicago,ATM,Merchant_19,0
+CUST001,2024-01-13 18:36:00,326.06,withdrawal,New York,mobile,Merchant_27,0
