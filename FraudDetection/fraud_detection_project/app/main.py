@@ -3,13 +3,13 @@ from app.schemas import Transaction
 import pandas as pd
 import shap
 from datetime import datetime
-import os
 
 from app.utils.email_alert import send_fraud_alert_email
 from app.model.trainer import load_and_train_models, preprocess
 
 app = FastAPI()
 
+# Load the customer data and LightGBM models
 customer_dfs, models, X_data = load_and_train_models()
 
 @app.get("/")
@@ -34,13 +34,14 @@ def predict(cust_id: str, txn: Transaction):
 
     model = models[cust_id]
     pred = int(model.predict(x_input)[0])
-    prob = float(model.predict_proba(x_input)[0][1])
+    prob = float(model.predict_proba(x_input)[0][1]) if hasattr(model, 'predict_proba') else float(model.predict(x_input)[0])
 
     explainer = shap.Explainer(model)
     shap_values = explainer(x_input)
     shap_contributions = dict(zip(x_input.columns, shap_values.values[0].tolist()))
 
     if pred == 1:
+        print(f"[DEBUG] FRAUD detected for customer {cust_id} with prob {prob}")
         send_fraud_alert_email(cust_id, txn, prob)
 
     return {
@@ -48,3 +49,4 @@ def predict(cust_id: str, txn: Transaction):
         "probability": prob,
         "feature_contributions": shap_contributions
     }
+
